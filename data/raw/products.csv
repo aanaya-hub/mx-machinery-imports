@@ -1,0 +1,46 @@
+﻿sku,product_name,category,hs_code,unit_net_weight_kg,unit_volume_cbm,primary_supplier_id,list_price_usd,country_of_origin
+SKU-101,CNC Vertical Machining Centre VMC-101,CNC machining centre,8457.10.01.00,8542.5,30.55,SUP-1006,168210.0,China
+SKU-102,CNC Vertical Machining Centre VMC-102,CNC machining centre,8457.10.01.00,15063.7,20.54,SUP-1002,103440.0,China
+SKU-103,CNC Vertical Machining Centre VMC-103,CNC machining centre,8457.10.01.00,18341.2,17.97,SUP-1012,178910.0,China
+SKU-104,CNC Vertical Machining Centre VMC-104,CNC machining centre,8457.10.01.00,8636.7,29.09,SUP-1014,161740.0,China
+SKU-105,CNC Vertical Machining Centre VMC-105,CNC machining centre,8457.10.01.00,14233.9,14.7,SUP-1014,172720.0,China
+SKU-106,CNC Turning Centre TC-106,CNC lathe,8458.11.01.00,13327.3,17.36,SUP-1002,92360.0,China
+SKU-107,CNC Turning Centre TC-107,CNC lathe,8458.11.01.00,10542.4,13.56,SUP-1002,47600.0,China
+SKU-108,CNC Turning Centre TC-108,CNC lathe,8458.11.01.00,11219.2,11.68,SUP-1012,117940.0,China
+SKU-109,CNC Turning Centre TC-109,CNC lathe,8458.11.01.00,13407.2,,SUP-1013,85900.0,China
+SKU-110,Fibre Laser Cutting Machine FL-110,Laser cutting machine,8456.11.01.00,4689.9,11.34,SUP-1010,20170.0,China
+SKU-111,Fibre Laser Cutting Machine FL-111,Laser cutting machine,8456.11.01.00,1856.0,,SUP-1001,48070.0,China
+SKU-112,Fibre Laser Cutting Machine FL-112,Laser cutting machine,8456.11.01.00,2143.6,7.57,SUP-1008,73430.0,China
+SKU-113,Fibre Laser Cutting Machine FL-113,Laser cutting machine,8456.11.01.00,3195.7,18.32,SUP-1003,65360.0,China
+SKU-114,Injection Moulding Machine IMM-114,Injection moulding machine,8477.10.01.00,13106.2,27.54,SUP-1001,72300.0,China
+SKU-115,Injection Moulding Machine IMM-115,Injection moulding machine,8477.10.01.00,4563.0,19.12,SUP-1011,45350.0,China
+SKU-116,Injection Moulding Machine IMM-116,Injection moulding machine,8477.10.01.00,6421.4,10.42,SUP-1014,89300.0,China
+SKU-117,Injection Moulding Machine IMM-117,Injection moulding machine,8477.10.01.00,11584.0,16.67,SUP-1013,35170.0,China
+SKU-118,Injection Moulding Machine IMM-118,Injection moulding machine,8477.10.01.00,6672.8,12.64,SUP-1014,30520.0,China
+SKU-119,6-Axis Industrial Robot IR-119,Industrial robot,8479.50.01.00,2488.3,3.61,SUP-1006,51970.0,China
+SKU-120,6-Axis Industrial Robot IR-120,Industrial robot,8479.50.01.00,2182.8,3.12,SUP-1013,62980.0,China
+SKU-121,6-Axis Industrial Robot IR-121,Industrial robot,8479.50.01.00,2365.9,8.46,SUP-1001,67160.0,China
+SKU-122,Screw Air Compressor SAC-122,Air compressor,8414.80.99.00,1294.2,,SUP-1014,25430.0,China
+SKU-123,Screw Air Compressor SAC-123,Air compressor,8414.80.99.00,1535.9,7.32,SUP-1003,19630.0,China
+SKU-124,Screw Air Compressor SAC-124,Air compressor,8414.80.99.00,571.2,5.25,SUP-1002,8130.0,China
+SKU-125,Screw Air Compressor SAC-125,Air compressor,8414.80.99.00,3330.5,7.0,SUP-1002,15450.0,China
+SKU-126,Automatic Filling & Sealing Line PFS-126,Packaging machine,8422.30.99.00,6230.8,13.2,SUP-1008,32120.0,China
+SKU-127,Automatic Filling & Sealing Line PFS-127,Packaging machine,8422.30.99.00,3825.5,19.27,SUP-1011,57330.0,China
+SKU-128,Automatic Filling & Sealing Line PFS-128,Packaging machine,8422.30.99.00,5152.8,11.58,SUP-1007,54820.0,China
+SKU-129,Automatic Filling & Sealing Line PFS-129,Packaging machine,8422.30.99.00,7772.0,18.25,SUP-1007,41250.0,China
+SKU-130,Hydraulic Press HP-130,Hydraulic press,8462.91.01.00,22799.0,33.09,SUP-1007,86770.0,China
+SKU-131,Hydraulic Press HP-131,Hydraulic press,8462.91.01.00,22577.7,25.75,SUP-1009,80720.0,China
+SKU-132,Hydraulic Press HP-132,Hydraulic press,8462.91.01.00,14439.6,13.18,SUP-1007,32380.0,China
+SKU-133,Hydraulic Press HP-133,Hydraulic press,8462.91.01.00,20272.3,30.47,SUP-1003,101100.0,China
+SKU-134,Precision Injection Mould MD-134,Mould and die,8480.71.01.00,1398.5,4.41,SUP-1014,7660.0,China
+SKU-135,Precision Injection Mould MD-135,Mould and die,8480.71.01.00,1888.3,,SUP-1011,4410.0,China
+SKU-136,Precision Injection Mould MD-136,Mould and die,8480.71.01.00,1677.1,5.85,SUP-1011,20210.0,China
+SKU-137,Modular Belt Conveyor CV-137,Conveyor system,8428.33.01.00,5455.3,18.25,SUP-1013,36080.0,China
+SKU-138,Modular Belt Conveyor CV-138,Conveyor system,8428.33.01.00,5253.7,12.84,SUP-1005,12290.0,China
+SKU-139,Modular Belt Conveyor CV-139,Conveyor system,8428.33.01.00,1033.8,9.55,SUP-1005,23800.0,China
+SKU-140,Inverter Arc Welding Power Source AW-140,Arc welding machine,8515.31.01.00,1777.7,3.29,SUP-1013,28300.0,China
+SKU-141,Inverter Arc Welding Power Source AW-141,Arc welding machine,8515.31.01.00,1895.6,4.11,SUP-1007,30130.0,China
+SKU-142,Inverter Arc Welding Power Source AW-142,Arc welding machine,8515.31.01.00,1186.9,3.52,SUP-1012,7690.0,China
+SKU-109,CNC Turning Centre TC-109 (superseded),CNC lathe,8458.11.01.00,13407.2,,SUP-1013,78194.13,China
+SKU-115,Injection Moulding Machine IMM-115 (superseded),Injection moulding machine,8477.10.01.00,4563.0,19.12,SUP-1011,39871.68,China
+SKU-102,CNC Vertical Machining Centre VMC-102 (superseded),CNC machining centre,8457.10.01.00,15063.7,20.54,SUP-1002,88198.95,China

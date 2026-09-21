@@ -1,0 +1,16 @@
+supplier_id,supplier_name,region,province,factory_city,port_of_loading,latitude,longitude,payment_terms,default_incoterm,contract_start
+SUP-1001,"Shenzhen Yuanda Precision Machinery Co., Ltd.",South China,Guangdong,Shenzhen,Yantian,22.5937,114.245,"T/T 30% deposit, 70% against B/L copy",FOB,2021-04-12
+SUP-1002,"Dongguan Hengli Machine Tool Manufacturing Co., Ltd.",South China,Guangdong,Dongguan,Shekou,22.479,113.919,T/T 40% deposit,FOB,2021-07-01
+SUP-1003,"Guangzhou Nansha Industrial Equipment Co., Ltd.",South China,Guangdong,Guangzhou,Nansha,22.7216,113.53,L/C at sight,CIF,2022-01-15
+SUP-1004,"Foshan Zhongke Machine Tools Co., Ltd.",South China,Guangdong,Foshan,Yantian,22.5937,114.245,T/T 30% deposit,FOB,2022-03-08
+SUP-1005,"Zhuhai Hongyuan Automation Equipment Co., Ltd.",South China,Guangdong,Zhuhai,Shekou,22.479,113.919,T/T 50% deposit,EXW,2022-05-20
+SUP-1006,"Ningbo Beilun Machinery Trading Co., Ltd.",East China,Zhejiang,Ningbo,Ningbo-Zhoushan,29.8683,121.544,T/T 30% deposit,FOB,2020-11-03
+SUP-1007,"Hangzhou Xinhe Intelligent Equipment Co., Ltd.",East China,Zhejiang,Hangzhou,Ningbo-Zhoushan,29.8683,121.544,L/C 60 days,CIF,2021-02-18
+SUP-1008,"Wenzhou Yongjia Machinery Manufacturing Co., Ltd.",East China,Zhejiang,Wenzhou,"Wenzhou, CN",27.98,120.72,T/T 30% deposit,FOB,2021-09-27
+SUP-1009,"Yiwu Tianhe Industrial Supply Co., Ltd.",East China,Zhejiang,Yiwu,Ningbo-Zhoushan,29.8683,121.544,T/T 100% before shipment,EXW,2022-06-11
+SUP-1010,"Taizhou Luqiao Mould & Machine Co., Ltd.",East China,Zhejiang,Taizhou,Taizhou,28.66,121.42,T/T 30% deposit,FOB,2022-08-30
+SUP-1011,"Suzhou Industrial Park Machinery Co., Ltd.",East China,Jiangsu,Suzhou,Shanghai,,,L/C at sight,CIF,2020-08-14
+SUP-1012,"Wuxi Xishan Precision Tools Co., Ltd.",East China,Jiangsu,Wuxi,Shanghai,31.35,121.6,T/T 30% deposit,FOB,2021-11-05
+SUP-1013,"Changzhou Wujin Heavy Machinery Co., Ltd.",East China,Jiangsu,Changzhou,Shanghai,,,T/T 40% deposit,FOB,2022-02-22
+SUP-1014,"Nantong Haian Equipment Manufacturing Co., Ltd.",East China,Jiangsu,Nantong,Nantong,31.98,120.89,L/C 90 days,CIF,2022-10-09
+SUP-1007,"Hangzhou Xinhe Intelligent Equipment Co., LTD",East China,Zhejiang,Hangzhou,Ningbo,29.8683,121.544,L/C 60 days,CIF,2021-02-18

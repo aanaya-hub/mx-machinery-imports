@@ -1,0 +1,22 @@
+# Virtual environment — rebuild it from requirements.txt, never commit it
+.venv/
+
+# Private working files: the data generator and the clean answer key.
+# Excluded deliberately, so the cleaning work shown in the notebook has to be
+# discovered from the data rather than read off a list.
+_private/
+
+# Notebook and python debris
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local databases — the notebook rebuilds them from the CSVs
+*.db
+
+# Editor settings can contain absolute local paths
+.vscode/
+
+# Operating-system noise
+.DS_Store
+Thumbs.db
