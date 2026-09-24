@@ -1,0 +1,21 @@
+id,area,finding,rows affected,decision
+F-01,Encoding,"shipments.csv is Latin-1, not UTF-8",1,Read with the encoding it is stored in; the failure is demonstrated in the opening cell
+F-02,Encoding,products.csv carries a byte-order mark,1,Read with utf-8-sig; tested rather than assumed — pandas strips it either way
+F-03,Duplicates,Rows copied whole,12,"Removed. 1,458 rows in the file, 1,440 shipments described"
+F-04,Duplicates,The same shipment entered twice under a second id,6,"Removed the re-entered copy, keeping the row in the file's own id sequence"
+F-05,Dates,Four date formats mixed row by row,1458,"Detected by pattern, then parsed per row rather than per column"
+F-06,Dates,Slash dates readable day-first or month-first,1765,"Resolved from evidence inside each row, never by assumption"
+F-07,Dates,Rows with no decisive evidence at all,17,"Settled by the order of events, then by the PO number; the two methods agreed on all 11 rows where both applied"
+F-08,Dates,Shipments whose own timeline is impossible,15,Flagged and excluded from every timing figure until someone rules on them
+F-09,Keys,Supplier codes failing an exact match,37,"16 tidied, 7 had the hyphen restored, 6 recovered from the loading port, 8 left unresolved"
+F-10,Keys,Product codes matching nothing,10,Left flagged; the join shows them empty rather than guessing a product
+F-11,Keys,A code written 27 ways for 8 ports,27,Normalised against the master with accents stripped; 12 spellings collapse to 3 Mexican ports
+F-12,Keys,Rows where an independent test disagrees with the code,45,"Listed with the reason each was caught: matching nothing, a different tariff code, or a price far from the master's"
+F-13,Tariff,Declared HS codes contradicting the product master,22,6 carry the same duty rate and cost nothing; 16 disagree on the rate and are itemised below
+F-14,Tariff,Shipments where the code and the duty paid cannot both be right,16,"The money identified which field is wrong: 12 tariff codes, 4 SKUs pointing at the wrong product"
+F-15,Tariff,Duty the declared codes imply beyond what was paid,7,"MXN 1,207,422 of exposure if the declaration is read literally — corrected by fixing the codes"
+F-16,Money,Amounts stored as text,1291,"2,380 flags across three patterns, but only 1,291 distinct cells: 1,033 carry a currency symbol, 1,291 a thousands separator, 53 are written the European way"
+F-17,Money,Broken spreadsheet formulas,2,"'#REF!' in the customs processing fee, left missing rather than filled with zero"
+F-18,Money,Lines breaking quantity x price = total,6,"3 with a zero quantity and 3 with a price 100x too high; identified by cause, not corrected"
+F-19,Coverage,Shipments with a missing timing figure,44,"Reported, never estimated — a blank date is an absent fact"
+F-20,Coverage,Supplier delivery performance,1387,"No difference is detectable (chi-square p = 0.118). No ranking published, because none is supported"
