@@ -1,0 +1,6 @@
+# Tell Linguist to count the notebook's code as Python.
+# A .ipynb is Python plus markdown plus saved output; GitHub labels the whole file
+# "Jupyter Notebook" and gives it its own slice of the language bar. Since every line of
+# code in this repository lives in that notebook, the bar reads "Jupyter Notebook 100%"
+# and hides the fact that the work is Python.
+*.ipynb linguist-language=Python
