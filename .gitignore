@@ -1,4 +1,8 @@
-# Virtual environment — rebuild it from requirements.txt, never commit it
+# Virtual environment — rebuild it from requirements.txt, never commit it.
+# Named venv-mx-imports (not .venv) so it is identifiable alongside venv-saas
+# in the sibling project. Both names are listed: .venv stays here in case the
+# folder is ever recreated the conventional way.
+venv-mx-imports/
 .venv/
 
 # Private working files: the data generator and the clean answer key.

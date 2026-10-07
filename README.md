@@ -104,9 +104,14 @@ them, each with what changes if it is wrong.
 ```bash
 git clone https://github.com/aanaya-hub/mx-machinery-imports.git
 cd mx-machinery-imports
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv venv-mx-imports && source venv-mx-imports/bin/activate
 pip install -r requirements.txt
 ```
+
+The environment is named **`venv-mx-imports`** rather than the conventional `.venv`, so it is
+identifiable when several projects sit side by side — the SaaS analytics project in this portfolio
+uses `venv-saas`. A virtual environment is never committed: it is hundreds of megabytes, it is
+specific to one operating system, and `requirements.txt` reproduces it exactly.
 
 Open `notebooks/01-data-repair-and-eda.ipynb` in VS Code or Jupyter and **Run All**. It builds
 `imports.db` in the project folder, writes the figures into `reports/figures/`, and exports the
